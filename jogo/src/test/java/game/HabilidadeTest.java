@@ -21,12 +21,12 @@ class HabilidadeTest {
     }
 
     @Test
-    void deveRetornarSoldadoParaUsarGolpeFraco() {
+    void deveRetornarArqueiroParaUsarGolpeFraco() {
         assertEquals("Golpe de um arqueiro", arqueiro.usarHabilidade(new Habilidade(TipoHabilidadeFraca.getTipoHabilidadeFraca())));
     }
 
     @Test
-    void deveRetornarEspadachimParaUsarGolpeMedio() {
+    void deveRetornarMagoParaUsarGolpeMedio() {
         assertEquals("Golpe do Mago", arqueiro.usarHabilidade(new Habilidade(TipoHabilidadeNormal.getTipoHabilidadeNormal())));
     }
 
